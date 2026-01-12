@@ -106,6 +106,11 @@ def load_assets():
         return None, None
 
 model, scaler = load_assets()
+
+if model is None or scaler is None:
+    st.error("❌ model.pkl or scaler.pkl not found or incompatible")
+    st.stop()
+     
 inv_label_map = {0: 'no_drone', 1: 'DJI Inspire', 2: 'DJI Mavic', 3: 'DJI Phantom'}
 
 
@@ -163,3 +168,4 @@ st.markdown(f"""
     </div>
 
     """, unsafe_allow_html=True)
+
