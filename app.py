@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import cv2
 import pickle
-import time
+
 
 st.set_page_config(page_title="SkyGuard AI", page_icon="🛡️", layout="centered")
 
@@ -161,4 +161,5 @@ st.markdown(f"""
         <p style='color: #94a3b8; font-size: 0.8rem; margin-bottom: 8px;'>SECURE AI ANALYTICS ENGINE</p>
         <div class="badge">DEVELOPED BY BAGADI SANTHOSH KUMAR</div>
     </div>
+
     """, unsafe_allow_html=True)
