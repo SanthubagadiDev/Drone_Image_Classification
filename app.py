@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import cv2
 import pickle
+import time
 
 
 st.set_page_config(page_title="SkyGuard AI", page_icon="🛡️", layout="centered")
@@ -164,4 +165,5 @@ st.markdown(f"""
     </div>
 
     """, unsafe_allow_html=True)
+
 
