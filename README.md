@@ -19,6 +19,7 @@ The trained model is deployed using Streamlit for real-time prediction.
 ## 📊 Dataset Information
 
 **Source:** Kaggle – Synthetic Drone Classification Dataset
+
 **Dataset Link:** https://www.kaggle.com/datasets/balajikartheek/drone-type-classification
 
 **Data Type:** Image data
